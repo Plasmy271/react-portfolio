@@ -1,17 +1,23 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe"
+import Navbar from "./components/Navbar";
 
 function App()
 {
   return (
-    <><div className="container">
+    <>
+      <Navbar />
+      <div className = "container">
         <AboutMe />
         <Projects />
         <ContactMe />
       </div>
     </>
   );
-
 }
 
 export default App;
