@@ -1,21 +1,23 @@
-// components/ContactMe.jsx
 import React, { useEffect } from 'react';
 
 const ContactMe = () => {
-  useEffect(() => {
-    // Form validation and submission handling
+  useEffect(() =>
+  {
     const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-      contactForm.addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert('Thanks for the message! It will be read eventually and be replied to soon.');
-        contactForm.reset();
-      });
-    }
+    if (contactForm)
+      {
+        contactForm.addEventListener('submit', function(event)
+        {
+           event.preventDefault();
+            alert('Thanks for the message! It will be read eventually and be replied to soon.');
+            contactForm.reset();
+        });
+      }
 
-    // Cleanup function
-    return () => {
-      if (contactForm) {
+    return () =>
+    {
+      if (contactForm)
+      {
         contactForm.removeEventListener('submit', () => {});
       }
     };

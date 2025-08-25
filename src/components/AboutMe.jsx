@@ -1,9 +1,9 @@
-// components/AboutMe.jsx
 import React from 'react';
 
-const AboutMe = () => {
+const AboutMe = () =>
+{
   return (
-    <div id="about" className="card my-4"> {/* Added id="about" */}
+    <div id="about" className="card my-4">
       <div className="card-body">
         <h2 className="card-title">About Me</h2>
         <p className="card-text">
