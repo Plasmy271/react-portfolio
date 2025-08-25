@@ -22,7 +22,7 @@ const ContactMe = () => {
   }, []);
 
   return (
-    <div className="container mt-5">
+    <div id="contact" className="container mt-5">
       <div className="row justify-content-center">
         <div className="col-md-8">
           <form id="contactForm" className="row g-3 needs-validation" noValidate>

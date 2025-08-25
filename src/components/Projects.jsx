@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="container mt-4">
+    <div id="projects" className="container mt-4">
       <h2 className="text-center mb-4">My Projects</h2>
       <div className="row">
         <div className="col-md-4 mb-4">

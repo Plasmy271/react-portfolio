@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <div className="card my-4">
+    <div id="about" className="card my-4"> {/* Added id="about" */}
       <div className="card-body">
         <h2 className="card-title">About Me</h2>
         <p className="card-text">
