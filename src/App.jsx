@@ -1,31 +1,23 @@
-export default function App() {
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
+import Navbar from "./components/Navbar";
+
+function App()
+{
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-        fontFamily: "sans-serif",
-        background: "#f9fafb",
-        color: "#111",
-        textAlign: "center",
-      }}
-    >
-      <h1
-        style={{
-          fontSize: "2.5rem",
-          marginBottom: "0.5rem",
-          fontWeight: 600,
-        }}
-      >
-        Welcome to{" "}
-        <span style={{ color: "#2563eb" }}>React_Portfolio_Resurreccion</span> 🚀
-      </h1>
-      <p style={{ fontSize: "1.1rem", color: "#555" }}>
-        Your project is ready. Start building amazing things!
-      </p>
-    </div>
+    <>
+      <Navbar />
+      <div className="container" style={{ paddingTop: '80px' }}>
+        <AboutMe />
+        <Projects />
+        <ContactMe />
+      </div>
+    </>
   );
 }
+
+export default App;
