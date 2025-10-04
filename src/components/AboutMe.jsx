@@ -7,7 +7,7 @@ const AboutMe = () =>
       <div className="card-body">
         <h2 className="card-title">About Me</h2>
         <p className="card-text">
-          Thank you for visiting this page! This little portfolio is dedicated to my side-hobby of writing fanfiction.
+          Thank you for visiting this page! This little portfolio is dedicated to my side-hobby of writing fanfiction. This is a test.
         </p>
       </div>
     </div>
